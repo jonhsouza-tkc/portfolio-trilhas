@@ -1,0 +1,39 @@
+.meus-projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.projeto {
+    width: 392px;
+    height: 204px;
+    border: 1px solid rgba(54, 50, 50, 0.5);
+    border-radius: 8px;
+}
+
+.capa {
+    width: 360px;
+    height: 140px;
+    object-fit: cover;
+    margin: 12px 16px;
+    border-radius: 4px;
+}
+
+.link-projeto {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.link-projeto a {
+    color: #000;  
+    text-decoration: underline; 
+    font-size: 14px;
+}
+
+.seta {
+    width: 10px;
+    height: 8px;
+}
+
