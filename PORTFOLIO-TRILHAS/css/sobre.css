@@ -1,0 +1,15 @@
+.about-me {
+    max-width: 800px;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px 40px;
+    border-radius: 8px; 
+    border: 1px solid rgba(54, 50, 50, 0.2); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-me p {
+    font-size: 18px;
+    /* line-height: 1.6; */
+    color: #333; 
+}
