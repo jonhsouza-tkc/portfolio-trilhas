@@ -9,6 +9,13 @@
     height: 204px;
     border: 1px solid rgba(54, 50, 50, 0.5);
     border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #e117caf8; 
 }
 
 .capa {

@@ -31,7 +31,13 @@ body {
     width: 112px;
     height: 112px;
     border-radius: 50%;
+    transition: all 0.3s ease;
 } 
+
+.photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
 
 .container {
     display: flex;
@@ -62,6 +68,14 @@ body {
     padding: 1rem 0;
     border-radius: 8px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.sobre a:hover {
+    background-color: #ec78f3; 
+    color: #fff;  
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .redes {
